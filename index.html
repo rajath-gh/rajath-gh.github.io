@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rajath | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>This is a static website successfully deployed using GitHub Pages.</p>
-    </div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Rajath</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="hero-sub">Computer Science Engineering student</p>
+      <h1>I build things for the web and for phones.</h1>
+      <p class="hero-text">Hi, I'm Rajath. I study at Mangalore Institute of Technology &amp; Engineering and I'm doing a Web Development Internship with Elevate Labs.</p>
+      <a class="btn" href="#projects">See my work</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a CSE student at MITE, Mangalore. I enjoy turning ideas into working software, from responsive web pages to REST APIs and Flutter apps. This site is hosted for free on GitHub Pages as part of Task 5 of my internship.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js &amp; Express</li>
+        <li>Flutter</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Responsive Landing Page</h3>
+          <p>A landing page built with HTML and CSS that adapts to any screen size.</p>
+        </article>
+        <article class="card">
+          <h3>Books REST API</h3>
+          <p>A Node.js and Express API with GET, POST, PUT and DELETE routes for managing books.</p>
+        </article>
+        <article class="card">
+          <h3>Mobile-Friendly Website</h3>
+          <p>A site made mobile-friendly with CSS media queries, tested in Chrome DevTools.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Find my code on <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rajath. Hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
